@@ -1,4 +1,4 @@
-# psharma04's Dorion Tap
+# writzx's Dorion Tap
 
 ## What is Dorion?
 
@@ -8,15 +8,15 @@ You can [find out more information here](https://github.com/SpikeHD/Dorion).
 
 ## How do I install Dorion via Homebrew?
 
-`brew install psharma04/dorion/dorion`
+`brew install writzx/dorion/dorion`
 
-Or `brew tap psharma04/dorion`, then `brew trust psharma04/dorion` and then `brew install --cask dorion`.
+Or `brew tap writzx/dorion`, then `brew trust writzx/dorion` and then `brew install --cask dorion`.
 
 Or, in a [`brew bundle`](https://docs.brew.sh/Brew-Bundle-and-Brewfile) `Brewfile`:
 
 ```ruby
-tap "psharma04/dorion", trusted: true
-brew "dorion", trusted: true
+tap "writzx/dorion", trusted: true
+cask "writzx/dorion/dorion", trusted: true
 ```
 
 ## Documentation
